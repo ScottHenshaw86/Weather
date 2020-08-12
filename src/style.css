@@ -1,0 +1,115 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+p, h1, div, input {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+#weather {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    padding: 10px 0 10px 0;
+    color: white;
+}
+
+#day1, #day2, #day3, #day4 {
+    width: 21%;
+    margin: 15px 10px;
+    padding: 10px 0 10px 0;
+}
+
+div.nextDays, div.today {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+p {
+    margin: 5px 30px 5px 30px;
+}
+
+h1 {
+    font-size: 5em;
+    color: yellow;
+}
+
+input {
+    width: 80%;
+    line-height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.medium {
+    font-size: 1.2em;
+}
+
+.small {
+    font-size: .8em;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+#results {
+    position: absolute;
+    right: 11%;
+    top: 37px;
+    width: 78%;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: none;
+    border-top: none;
+}
+
+#results>div {
+    background-color: white;
+    opacity: .8;
+    color: black;
+    border-radius: none;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 0;
+}
+
+#results div:hover, #results div:focus {
+    background-color: lightgray;
+    outline: none;
+}
+
+div {
+    display: inline-block;
+}
+
+#searchDiv {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+}
+
+input:focus{
+    outline: none;
+}
