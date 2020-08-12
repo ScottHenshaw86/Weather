@@ -10,3 +10,6 @@ Play online at hrtereadfdfhtr.com
 * CSS
 * Javascript
 * AJAX
+
+## Note
+As this project utilizes AJAX, it must be run in a server environment.
